@@ -1,5 +1,5 @@
-Here you can say lots of fun things about your site.
+### Xavier's GSoC blog
 
-Maybe say a some things about yourself.
+This is a blog containing bi-weekly updates for my Google Summer of Code project.
 
-Or maybe what you plan to blog about.
+It will contain bi-weekly updates of my progress.
