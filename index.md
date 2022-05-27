@@ -3,3 +3,5 @@
 This is a blog containing bi-weekly updates for my Google Summer of Code project.
 
 It will contain bi-weekly updates of my progress.
+
+---
