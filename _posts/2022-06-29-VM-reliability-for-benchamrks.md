@@ -7,7 +7,7 @@ The second benchmark measures code performance based on the size of matrices use
 While the history benchmark is to be performed regularly on every commit, merge or pull request (still tbd), the scaling benchmark would be performed locally by the user in order to determine which datalayer to use based on his own system ressources.  
 
 Example benchmark performed locally on my laptop: timings of dense matrix multiplication of size N for each datalayer.
-![alt text](./images/matmul_dense.png)
+![alt text](/images/matmul_dense.png)
 
 ---
 
