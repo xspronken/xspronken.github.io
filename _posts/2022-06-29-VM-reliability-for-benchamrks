@@ -1,0 +1,6 @@
+## Week 1 and 2: Benchmariking reliabiity
+
+The main goals of these first 2 weeks was to establish what was to be benchmarked and wether performing the benchmarks using a VM (Github actions in this case) is viable. We established that there would be two main types of benchmarks: a history benchmark that would track code performance across different updates of qutip and it's dependencies this benchmark would be performed every pull request on github actions 
+
+---
+
