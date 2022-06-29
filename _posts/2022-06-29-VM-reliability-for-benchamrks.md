@@ -6,6 +6,7 @@ We established that there would be two main types of benchmarks: a history bench
 The second benchmark measures code performance based on the size of matrices used to perform the simulations. Qutip contains different datalayers to store operator matrices and vectors and perform calculations with them. The aim of these benchmarks is to establish wich datalayer is most efficient in performing calculations based on matrix density and size. 
 While the history benchmark is to be performed regularly on every commit, merge or pull request (still tbd), the scaling benchmark would be performed locally by the user in order to determine which datalayer to use based on his own system ressources.  
 
+![alt text](https://github.com/xspronken/xspronken.github.io/blob/edit](https://github.com/xspronken/xspronken.github.io/blob/main/_posts/images/matmul_dense.png)
 ---
 
 As of right now the benchmarks are performed using pytest-benchamark. We determined air speed velocity would not be needed since creating the infrastructure to perform the benchmarks ourselves would give us more control and be easier to use with valgrind should it be needed.
