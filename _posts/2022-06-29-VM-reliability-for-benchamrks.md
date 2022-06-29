@@ -7,7 +7,7 @@ The second benchmark measures code performance based on the size of matrices use
 While the history benchmark is to be performed regularly on every commit, merge or pull request (still tbd), the scaling benchmark would be performed locally by the user in order to determine which datalayer to use based on his own system ressources.  
 
 Example benchmark performed locally on my laptop: timings of dense matrix multiplication of size N for each datalayer.
-![alt text](https://github.com/xspronken/xspronken.github.io/blob/main/_posts/images/matmul_dense.png)
+![alt text](./images/matmul_dense.png)
 
 ---
 
@@ -15,4 +15,4 @@ As of right now the benchmarks are performed using pytest-benchamark. We determi
 So far we are testing the reliabiltiy of github actions in performing benchmarks and the results seem promising. Github actions can allocate one of 5 different processors for every workflow run. If we separate the benchmarks results based on what cpu was allocated during the run, the results seem to be very consistent. More data and analysis is needed though. This will be done in the next two weeks.
 
 Benchmarks for a dense 512x512 matirx multiplication one one of the available cpus provided on github actions
-![alt text](https://github.com/xspronken/xspronken.github.io/blob/main/_posts/images/Intel%20Xeon%20Platinum%208370C%20CPU%20at%202-80GHz_matmul_dense_512.png)
+![alt text](./images/Intel%20Xeon%20Platinum%208370C%20CPU%20at%202-80GHz_matmul_dense_512.png)
