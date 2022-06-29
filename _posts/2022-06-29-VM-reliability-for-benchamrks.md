@@ -9,5 +9,5 @@ While the history benchmark is to be performed regularly on every commit, merge 
 ---
 
 As of right now the benchmarks are performed using pytest-benchamark. We determined air speed velocity would not be needed since creating the infrastructure to perform the benchmarks ourselves would give us more control and be easier to use with valgrind should it be needed.
-So far we are testing the reliabiltiy of github actions in performing benchmarks and the results seem promising. Github actions can allocate one of 5 different processors for every workflow run. If we separate the benchmarks results based on what cpu was allocated durin the run, the results seem to be very consistent. More data and analysis is needed though. This will be done in the next two weeks.
+So far we are testing the reliabiltiy of github actions in performing benchmarks and the results seem promising. Github actions can allocate one of 5 different processors for every workflow run. If we separate the benchmarks results based on what cpu was allocated during the run, the results seem to be very consistent. More data and analysis is needed though. This will be done in the next two weeks.
 
