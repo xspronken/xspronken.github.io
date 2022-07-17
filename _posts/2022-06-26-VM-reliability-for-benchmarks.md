@@ -1,4 +1,4 @@
-## Week 1 and 2: Benchmarking goals and VM reliabiity
+## Week 1 and 2: Benchmarking goals and VM reliability
 
 The main goals of these first 2 weeks were to establish what was to be benchmarked and wether performing the benchmarks using a VM (Github actions in this case) is viable. 
 
