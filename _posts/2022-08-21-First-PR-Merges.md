@@ -8,6 +8,6 @@ Second to be merged was the first part of the workflow that runs the benchmarks,
 The workflow does not contain the part that uploadds the benchmarks to an S3 bucket yet.
 The QobjEvo benchmarks were also merged with minor changes.
 
-The seccond week was spent on the plotting and solver PRs, that haven´t been merged yet. The plotting PR required major changes as the plot fucntions initially made were tailored to each benchmark, thus requiring a new plotting function for each type of plot.
+The second week was spent on the plotting and solver PRs, that haven´t been merged yet. The plotting PR required major changes as the plot functions initially made were tailored to each benchmark, thus requiring a new plotting function for each type of plot.
 The most part of this week was spent creating functions to first prepare the data and then plot the prepared data. These funtions however still contained hardcoded information that could be extracted from the json files containing the benchmarks.
 The data preparation function also needs to be separated further, resulting in a function to extract and clean the data from the json file, a fucntion to the data by operation and a function to sort the data using the benchmark parameters.
