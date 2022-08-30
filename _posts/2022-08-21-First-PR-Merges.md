@@ -1,4 +1,4 @@
-## Week 8 and 9 Merging the first PRs
+## Week 9 and 10 Merging the first PRs
 
 During the first week the first three PRs being merged. The first one to be completed contained the operation benchmarks.
 The operation bencchmarks required some changes before being merged such as the creating the matrices using qutip.rand_herm rather than using numpy methods.
