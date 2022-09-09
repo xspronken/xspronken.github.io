@@ -4,8 +4,8 @@
 This project was conducted in the qutip-benchmark [repository](https://github.com/qutip/qutip-benchmark) which had been abandoned for 8 years.
 Rather than updating the existing code I chose to start a new project from scratch, however the pre-existing files and folders are still present in the repository.  
 #### Files and folders that existed before the project and were not modified:
-- [benchmark](https://github.com/qutip/qutip-benchmark/tree/master/benchmark)
-- [continuous-benchmark](https://github.com/qutip/qutip-benchmark/tree/master/continuous-benchmark)
+- [benchmark](https://github.com/qutip/qutip-benchmark/tree/master/pre_GSoC_benchmark)
+- [continuous-benchmark](https://github.com/qutip/qutip-benchmark/tree/master/pre_GSoC_continuous-benchmark)
 - [.gitignore](https://github.com/qutip/qutip-benchmark/blob/master/.gitignore)
 
 #### Files that existed before the project that I modified:
@@ -28,7 +28,7 @@ The plot png files that result from this are placed in the [website](https://git
 Finally the website folder is published to the [gh-pages](https://github.com/qutip/qutip-benchmark/tree/gh-pages) branch which hosts the [qutip-benchmark](https://qutip.org/qutip-benchmark/) section of [qutip.org](https://qutip.org/)
 
 #### 2. Running and plotting benchmarks locally as a user
-Information about this can be found in the [README.md](https://github.com/qutip/qutip-benchmark/blob/master/README.md) file at the root of the repo.
+Information about this can be found in the [README.md](https://github.com/qutip/qutip-benchmark/blob/master/README.md) and [tutorial.md](https://github.com/qutip/qutip-benchmark/blob/master/tutorial.md) files at the root of the repo.
 
 
 ## TODO
