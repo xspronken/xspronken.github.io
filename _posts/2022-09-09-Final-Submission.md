@@ -1,8 +1,7 @@
 # Final Submission:
 
-This project was conducted in the qutip-benchmark [repository](https://github.com/qutip/qutip-benchmark) which had been abandoned for 8 years.
-
 ## How to find my project files and folders 
+This project was conducted in the qutip-benchmark [repository](https://github.com/qutip/qutip-benchmark) which had been abandoned for 8 years.
 Rather than updating the existing code I chose to start a new project from scratch, however the prexisting files and folders are still present in the repository.  
 #### Files and folders that existed before the project and were not modified:
 - [benchmark](https://github.com/qutip/qutip-benchmark/tree/master/benchmark)
