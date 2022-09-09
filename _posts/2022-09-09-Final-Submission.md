@@ -1,4 +1,4 @@
-# Final Submission:
+# Final Submission
 
 ## How to find my project files and folders 
 This project was conducted in the qutip-benchmark [repository](https://github.com/qutip/qutip-benchmark) which had been abandoned for 8 years.
