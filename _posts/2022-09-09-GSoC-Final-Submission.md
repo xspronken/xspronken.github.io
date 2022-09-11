@@ -4,18 +4,24 @@
 This project was conducted in the qutip-benchmark [repository](https://github.com/qutip/qutip-benchmark) which had been abandoned for 8 years.
 Rather than updating the existing code I chose to start a new project from scratch, however the pre-existing files and folders are still present in the repository.  
 #### Files and folders that existed before the project and were not modified:
-- [benchmark](https://github.com/qutip/qutip-benchmark/tree/master/pre_GSoC_benchmark)
-- [continuous-benchmark](https://github.com/qutip/qutip-benchmark/tree/master/pre_GSoC_continuous-benchmark)
+- [pre GSoC archive](https://github.com/qutip/qutip-benchmark/tree/master/pre_GSoC_archive)
 - [.gitignore](https://github.com/qutip/qutip-benchmark/blob/master/.gitignore)
 
 #### Files that existed before the project that I modified:
 - [LICENSE](https://github.com/qutip/qutip-benchmark/blob/master/LICENSE), modified in this [commit](https://github.com/qutip/qutip-benchmark/commit/dd1cff5ef64ebb0d759fe3b11ac14836bef6281c#diff-c693279643b8cd5d248172d9c22cb7cf4ed163a3c98c8a3f69c2717edd3eacb7)
 
 #### Files and folders that did not exist and were created during the project:
-- [benchmarks](https://github.com/qutip/qutip-benchmark/tree/master/benchmarks)
-- [website](https://github.com/qutip/qutip-benchmark/tree/master/website)
-- [.github](https://github.com/qutip/qutip-benchmark/tree/master/.github)
-- [README.md](https://github.com/qutip/qutip-benchmark/blob/master/README.md) 
+- [qutip_benchmarks](https://github.com/qutip/qutip-benchmark/tree/master/qutip_benchmark) contains the python scripts to run and view the benchmarks
+- [website](https://github.com/qutip/qutip-benchmark/tree/master/website) contains the files used to create the [website](https://qutip.org/qutip-benchmark/) which hosts the benchmarks
+- [.github](https://github.com/qutip/qutip-benchmark/tree/master/.github) contains the workflows for linting, testing the benchmarks on push/PR and running the nightly benchmarks to be published.
+- [README.md](https://github.com/qutip/qutip-benchmark/blob/master/README.md) Description of the python scripts and how to use them
+- [tutorial.md](https://github.com/qutip/qutip-benchmark/blob/master/tutorial.md) example use case for pllotting the bencchmarks.
+#### List of PRs created during the project:
+- [Closed PRs](https://github.com/qutip/qutip-benchmark/pulls?q=is%3Apr+author%3Axspronken+created%3A2022-06-14..2022-09-12+is%3Aclosed)
+- [Open PRs](https://github.com/qutip/qutip-benchmark/pulls?q=is%3Apr+author%3Axspronken+created%3A2022-06-14..2022-09-12+is%3Aopen+)
+
+#### Prototype branch
+In the first half of the project, before submiting PRs I first created a branch which performed benchmarks and plotted them to test the viability of using git actions for benchmarking, this branch was initially forked and stored in  my own github repository [here](https://github.com/xspronken/qutip-benchmark/tree/pytest-ci/.github/workflows). This branch effectively served as the prototype on which the PRs were based.
 
 ## Project use cases
 #### 1. Running automatic nightly benchmarks in git actions and publishing the results on [qutip.org/qutip-benchmark](https://qutip.org/qutip-benchmark/)
