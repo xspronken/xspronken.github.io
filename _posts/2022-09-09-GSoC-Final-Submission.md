@@ -17,7 +17,7 @@ Rather than updating the existing code I chose to start a new project from scrat
 - [README.md](https://github.com/qutip/qutip-benchmark/blob/master/README.md) Description of the python scripts and how to use them
 - [tutorial.md](https://github.com/qutip/qutip-benchmark/blob/master/tutorial.md) example use case for pllotting the bencchmarks.
 #### List of PRs created during the project:
-- [Closed PRs](https://github.com/qutip/qutip-benchmark/pulls?q=is%3Apr+author%3Axspronken+created%3A2022-06-14..2022-09-12+is%3Aclosed)
+- [Closed PRs](https://github.com/qutip/qutip-benchmark/pulls?q=is%3Apr+author%3Axspronken+created%3A2022-06-14..2022-09-12+closed%3A2022-06-14..2022-09-19)
 - [Open PRs](https://github.com/qutip/qutip-benchmark/pulls?q=is%3Apr+author%3Axspronken+created%3A2022-06-14..2022-09-12+is%3Aopen+)
 
 #### Prototype branch
