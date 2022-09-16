@@ -21,7 +21,7 @@ Rather than updating the existing code I chose to start a new project from scrat
 - [Open PRs](https://github.com/qutip/qutip-benchmark/pulls?q=is%3Apr+author%3Axspronken+created%3A2022-06-14..2022-09-12+is%3Aopen+)
 
 #### Prototype branch
-In the first half of the project, before submiting PRs I first created a branch which performed benchmarks and plotted them to test the viability of using git actions for benchmarking, this branch was initially forked and stored in  my own github repository [here](https://github.com/xspronken/qutip-benchmark/tree/pytest-ci/.github/workflows). This branch effectively served as the prototype on which the PRs were based.
+In the first half of the project, before submiting PRs I first created a branch which performed benchmarks and plotted them to test the viability of using git actions for benchmarking, this branch was initially forked and stored in  my own github repository [here](https://github.com/xspronken/qutip-benchmark/tree/pytest-ci). This branch effectively served as the prototype on which the PRs were based.
 
 ## Project use cases
 #### 1. Running automatic nightly benchmarks in git actions and publishing the results on [qutip.org/qutip-benchmark](https://qutip.org/qutip-benchmark/)
